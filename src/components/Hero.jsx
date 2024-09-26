@@ -10,6 +10,7 @@ const Hero = () => {
           We Specialize in Delivering a Custom, Hand Coded Website to give your
           Business the Boost it Needs.
         </p>
+        <button className="btn">Get Started</button>
       </div>
       <div className="hero-img">
         <img src={heroImg} alt="Hero Img" />

@@ -17,6 +17,7 @@ const Navbar = () => {
         <a className="nav-link" href="#contact">
           Contact
         </a>
+        <button className="btn">Get Started</button>
       </div>
     </div>
   );
