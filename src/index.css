@@ -25,20 +25,7 @@ body {
   margin: 0;
   height: 100vh;
   width: 100vw;
-}
-
-/* Navbar Animations */
-
-@keyframes fade-down {
-  0% {
-    opacity: 0%;
-    transform: translateY(-30px) scale(0.9);
-  }
-
-  100% {
-    opacity: 100%;
-    transform: translateY(0px) scale(1);
-  }
+  color: white;
 }
 
 /* Navbar */
@@ -52,7 +39,7 @@ body {
   width: 100vw;
   padding-left: 7%;
   padding-right: 7%;
-  animation: fade-down 0.8s;
+  animation: fade-down 1s;
 }
 
 .nav-logo img {
@@ -76,4 +63,67 @@ body {
 
 .nav-link:hover {
   scale: 1.1;
+}
+
+/* Navbar Animations */
+
+@keyframes fade-down {
+  0% {
+    opacity: 0%;
+    transform: translateY(-50px) scale(0.9);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+/* Hero */
+
+.hero-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  animation: fade-up 0.5s;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  width: 40vw;
+  gap: 5vh;
+}
+
+.hero-title {
+  font-size: 60px;
+  width: 70%;
+}
+
+.hero-body {
+  font-size: 24px;
+  width: 80%;
+}
+
+.hero-img img {
+  height: 80vh;
+  width: 50vw;
+}
+
+/* Hero Animations */
+
+@keyframes fade-up {
+  0% {
+    opacity: 0%;
+    transform: translateY(30px) scale(0.9);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateY(0px) scale(1);
+  }
 }
