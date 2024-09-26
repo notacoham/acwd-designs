@@ -28,6 +28,15 @@ body {
   color: white;
 }
 
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 2rem;
+}
+
 .btn {
   font-family: 'Outfit', sans-serif;
   font-weight: 700;
@@ -123,18 +132,20 @@ body {
 }
 
 .hero-title {
-  font-size: 60px;
   width: 70%;
 }
 
 .hero-body {
-  font-size: 24px;
   width: 80%;
 }
 
 .hero-img img {
   height: 80vh;
   width: 50vw;
+}
+
+.hero-img {
+  animation: move-up-down 4s linear infinite;
 }
 
 /* Hero Animations */
@@ -148,5 +159,16 @@ body {
   100% {
     opacity: 100%;
     transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes move-up-down {
+  0%,
+  100% {
+    transform: translateY(-15px);
+  }
+
+  50% {
+    transform: translateY(15px);
   }
 }

@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hero-content">
         <h1 className="hero-title">Small Business Web Design</h1>
         <p className="hero-body">
-          We Specialize in Delivering a Custom, Hand Coded Website to give your
+          We Specialize in Delivering Custom, Hand Coded Websites to give your
           Business the Boost it Needs.
         </p>
         <button className="btn">Get Started</button>
