@@ -23,7 +23,6 @@ html {
 
 body {
   margin: 0;
-  height: 100vh;
   width: 100vw;
   color: white;
 }
@@ -54,7 +53,7 @@ p {
 
 .btn:hover {
   scale: 1.2;
-  background-image: url(./assets/acwd-btn-background.jpg);
+  background-image: url(./assets/acwd-btn-background-6.png);
   background-size: cover;
   background-position: center;
   border: none;
@@ -171,4 +170,64 @@ p {
   50% {
     transform: translateY(15px);
   }
+}
+
+/* What We Do */
+
+.what-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 150vh;
+}
+
+.what-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.what-body {
+  text-align: center;
+  width: 80%;
+}
+
+.what-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+.what-item {
+  margin: 0 auto;
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  color: #1e1b32;
+  padding: 1.5rem 1.5rem;
+  border-radius: 30px;
+  height: 65vh;
+  /* gap: 1.5rem; */
+}
+
+.what-item-body {
+  font-size: 18px;
+  line-height: 1.5rem;
+}
+
+.what-img {
+  height: 6rem;
+  width: 6rem;
+  background-color: white;
+}
+
+.react-icons {
+  color: red;
 }
