@@ -20,6 +20,7 @@ html {
 
   /* Vars */
   --primary-1: #C7A8F0;
+  --primary-2: #4A188C;
 
 }
 
@@ -119,7 +120,7 @@ p {
   .nav-center {
     flex-direction: column;
     justify-content: flex-start;
-    height: 60vh;
+    height: 40vh;
   }
 
   .nav-links {
@@ -250,7 +251,9 @@ p {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 150vh;
+  /* height: 150vh; */
+  margin-top: 10%;
+  
 }
 
 .what-content {
@@ -272,34 +275,57 @@ p {
   justify-content: space-evenly;
   width: 100vw;
   flex-wrap: wrap;
+  margin-top: 5%;
 }
 
 .what-item {
-  margin: 0 auto;
   display: flex;
   width: 30vw;
   flex-direction: column;
   justify-content: space-around;
   background: white;
-  color: #1e1b32;
-  padding: 1.5rem 1.5rem;
+  color: var(--primary-2);
+  padding: 2rem 2rem;
   border-radius: 30px;
   height: 65vh;
+}
+
+.what-item-title {
+  font-weight: 700;
 }
 
 .what-item-body {
   font-size: 18px;
   line-height: 1.5rem;
+  color: black;
+  font-weight: 500;
 }
 
 .what-img {
-  height: 6rem;
-  width: 6rem;
-  background-color: white;
+  height: 5rem;
+  width: 5rem;
+  box-shadow: 8px 8px 8px var(--primary-1);
+  border-radius: 8px;
+  padding: .25rem;
 }
 
-.react-icons {
-  color: red;
+.what-btn {
+  color: var(--primary-2);
+  align-self: left;
+  max-width: 30%;
+  font-family: 'Outfit', sans-serif;
+  background: none;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.what-btn:hover {
+  background-color: var(--primary-1);
+  border-radius: 8px;
+  padding: 5px;
+  color: black;
 }
 
 /* What Responsive */
