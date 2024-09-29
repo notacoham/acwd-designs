@@ -14,9 +14,9 @@ const Footer = () => {
       </div>
       <div className="footer-links">
         <h2 className="footer-links-header">Quick Links</h2>
-        <NavLink className='footer-link'>Home</NavLink>
-        <NavLink className='footer-link'>About</NavLink>
-        <NavLink className='footer-link'>Contact</NavLink>
+        <NavLink className='footer-link' to='/'>Home</NavLink>
+        <NavLink className='footer-link' to='/about'>About</NavLink>
+        <NavLink className='footer-link' to='/contact'>Contact</NavLink>
       </div>
       <div className="footer-contacts">
         <p className="footer-contact">(801) 719-1411</p>

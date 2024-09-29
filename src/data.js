@@ -32,3 +32,36 @@ export const whatCards = [
         destination: '/seo'
     }
 ];
+
+export const benefits = [
+    {
+        id: 1,
+        title: 'Top Speeds',
+        description: 'Lightning-fast sites, zero bloat. We build streamlined websites optimized for top Google speed scores, ensuring your visitors enjoy a seamless experience and your site ranks higher.',
+    },
+    {
+        id: 2,
+        title: 'Custom Design',
+        description: `Bring your vision to life with our custom in-house designs. From concept to creation, we craft unique websites that perfectly capture your brand's essence and stand out from the crowd.`,
+    },
+    {
+        id: 3,
+        title: 'SEO Expertise',
+        description: `Be visible where it counts. 81% of customers research online before buying, making local SEO crucial. We'll optimize your site to capture your community's attention and drive more local business to your door.`,
+    },
+    {
+        id: 4,
+        title: 'Let Us Host',
+        description: 'Focus on growing your business while we handle your website hosting. For just $25/month, we ensure your site stays online and visible. Reliable hosting, zero hassle – let us take care of the tech so you can do what you do best.',
+    },
+    {
+        id: 5,
+        title: 'Aggressive Pricing',
+        description: 'In 2024, small business website design typically costs $2,000-$9,000. We offer professional 5-page layouts starting at just $1,200. Get a quality website that fits your budget and boosts your online presence.',
+    },
+    {
+        id: 6,
+        title: 'Attractive Designs',
+        description: `Did you know that 38% of users abandon websites with unappealing content or layouts? Don't let poor design cost you customers. Let our experts craft an attractive, user-friendly website that keeps visitors engaged and coming back for more.`,
+    },
+]

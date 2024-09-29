@@ -1,14 +1,14 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import WhatWeDo from '../components/WhatWeDo'
-import Owner from '../components/Owner'
+import Offerings from '../components/Offerings'
 
 const Landing = () => {
   return (
     <>
       <Hero />
       <WhatWeDo />
-      <Owner />
+      <Offerings />
     </>
   )
 }
