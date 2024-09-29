@@ -1,23 +1,24 @@
 import React from 'react';
 import logo from '../assets/logo-acwd-white.png';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <div className="nav-center">
       <div className="nav-logo">
-        <img src={logo} alt="Nav Logo" />
+        <img src={logo} alt="ACWD Designs LLC Logo for the Navigation bar." />
       </div>
       <div className="nav-links">
-        <a className="nav-link" href="#home">
+        <NavLink className="nav-link" to='/'>
           Home
-        </a>
-        <a className="nav-link" href="#about">
+        </NavLink>
+        <NavLink className="nav-link" to='/about'>
           About
-        </a>
-        <a className="nav-link" href="#contact">
+        </NavLink>
+        <NavLink className="nav-link" to='/contact'>
           Contact
-        </a>
-        <button className="btn">Get Started</button>
+        </NavLink>
+        <NavLink className="btn" to='/contact'>Get Started</NavLink>
       </div>
     </div>
   );

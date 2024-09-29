@@ -52,6 +52,8 @@ p {
   font-size: 1rem;
   border-radius: 30px;
   transition: all 0.2s ease-in-out;
+  color: black;
+  background-color: white;
 }
 
 .btn:hover {
@@ -276,6 +278,7 @@ p {
   width: 100vw;
   flex-wrap: wrap;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .what-item {

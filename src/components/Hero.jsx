@@ -1,5 +1,6 @@
 import React from 'react';
 import heroImg from '../assets/acwd-designs-hero-img.png';
+import { NavLink } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
           We Specialize in Delivering Custom, Hand Coded Websites to give your
           Business the Boost it Needs.
         </p>
-        <button className="btn">Get A Quote Today!</button>
+        <NavLink className="btn" to='/contact'>Get A Quote Today!</NavLink>
       </div>
       <div className="hero-img">
         <img src={heroImg} alt="Hero Img" />
