@@ -288,6 +288,31 @@ p {
   padding: 2rem 2rem;
   border-radius: 30px;
   height: 65vh;
+  transition: all 0.5s ease-in-out;
+}
+
+.what-item:hover {
+  background-image: url(./assets/what-card-background-img-edited.jpg);
+  background-size: cover;
+  background-position: center;
+  border: none;
+
+  .what-item-body {
+    color: white;
+  }
+
+  .what-item-title {
+    color: var(--primary-1);
+  }
+
+  .what-btn {
+    color: var(--primary-1);
+  }
+
+  .what-btn:hover {
+    color: white;
+    background-color: var(--primary-2);
+  }
 }
 
 .what-item-title {
@@ -304,7 +329,8 @@ p {
 .what-img {
   height: 5rem;
   width: 5rem;
-  box-shadow: 8px 8px 8px var(--primary-1);
+  box-shadow: 8px 8px 8px var(--primary-2);
+  background-color: var(--primary-1);
   border-radius: 8px;
   padding: .25rem;
 }
