@@ -314,7 +314,7 @@ p {
 
   .what-btn:hover {
     color: white;
-    background-color: var(--primary-2);
+    scale: 1.025;
   }
 }
 
@@ -341,21 +341,16 @@ p {
 .what-btn {
   color: var(--primary-2);
   align-self: left;
-  max-width: 30%;
   font-family: 'Outfit', sans-serif;
   background: none;
   border: none;
   font-weight: 500;
   font-size: 16px;
   transition: all 0.2s ease-in-out;
+  text-align: left;
 }
 
-.what-btn:hover {
-  background-color: var(--primary-1);
-  border-radius: 8px;
-  padding: 5px;
-  color: black;
-}
+
 
 /* What Responsive */
 
