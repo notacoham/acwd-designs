@@ -280,7 +280,7 @@ p {
 
 .what-item {
   display: flex;
-  width: 30vw;
+  width: 28vw;
   flex-direction: column;
   justify-content: space-around;
   background: white;
@@ -288,7 +288,7 @@ p {
   padding: 2rem 2rem;
   border-radius: 30px;
   height: 65vh;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
 .what-item:hover {
@@ -302,7 +302,7 @@ p {
   }
 
   .what-item-title {
-    color: var(--primary-1);
+    color: white;
   }
 
   .what-btn {
