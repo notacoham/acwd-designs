@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import WhatWeDo from '../components/WhatWeDo'
 import Offerings from '../components/Offerings'
 import Testimonials from '../components/Testimonials'
+import Pricing from '../components/Pricing'
 
 const Landing = () => {
   return (
@@ -11,6 +12,7 @@ const Landing = () => {
       <WhatWeDo />
       <Offerings />
       <Testimonials />
+      <Pricing />
     </>
   )
 }
