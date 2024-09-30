@@ -1,10 +1,12 @@
 import React from 'react'
 import logo from '../assets/logo-acwd-white.png'
 import { NavLink } from 'react-router-dom'
+import WaveTop from './WaveTop'
 
 const Footer = () => {
   return (
     <footer className='footer-center'>
+      <WaveTop />
       <div className="footer-main">
         <img style={{height: '100px', width: '100px'}} className='footer-logo' src={logo} alt="ACWD Designs LLC Logo for the Footer" />
         <p className="footer-body">We believe in doing our best to help small businesses. Just because you're a small

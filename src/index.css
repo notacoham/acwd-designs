@@ -66,6 +66,47 @@ p {
   border: none;
 }
 
+.wave-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(156% + 1.3px);
+    height: 130px;
+}
+
+.wave-bottom .shape-fill {
+    fill: #FFFFFF;
+}
+
+.wave-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-top svg {
+    position: relative;
+    display: block;
+    width: calc(156% + 1.3px);
+    height: 130px;
+}
+
+.wave-top .shape-fill {
+    fill: #FFFFFF;
+}
+
 /* Navbar */
 
 .nav-center {
@@ -261,7 +302,7 @@ p {
   align-items: center;
   /* height: 150vh; */
   margin-top: 10%;
-  
+  position: relative;
 }
 
 .what-content {
@@ -285,7 +326,7 @@ p {
   width: 100vw;
   flex-wrap: wrap;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 .what-item {
@@ -384,8 +425,9 @@ p {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 30vh;
-  margin-bottom: 5%;
+  height: auto;
+  position: relative;
+  
 }
 
 .footer-main {
@@ -394,6 +436,8 @@ p {
   justify-content: center;
   align-items: center;
   width: 30vw;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
 }
 
 .footer-body {
@@ -590,10 +634,10 @@ p {
 .testimonials-center {
   display: flex;
   flex-direction: column;
-  margin: 5% auto;
   justify-content: space-evenly;
   align-items: center;
   gap: 4rem;
+  position: relative;
 }
 
 .testimonials-head {
@@ -602,6 +646,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin-top: 10%;
 }
 
 .testimonials-title {
@@ -622,7 +667,7 @@ p {
   justify-content: center;
   width: 100vw;
   margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-bottom: 10%;
 }
 
 .testimonial-quote:hover {
@@ -681,7 +726,6 @@ p {
   justify-content: center;
   align-items: center;
   gap: 4rem;
-  margin-bottom: 4rem;
   background-color: white;
   padding: 3rem;
   width: 100vw;
@@ -795,7 +839,9 @@ p {
 
 /* Pricing Responsive */
 
-.pricing-center {
+@media (max-width: 768px) {
+
+  .pricing-center {
   flex-direction: column;
 }
 
@@ -809,4 +855,6 @@ p {
 
 .pricing-card {
   width: 80vw;
+}
+
 }

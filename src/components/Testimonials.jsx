@@ -1,9 +1,12 @@
 import React from 'react'
 import testimonialImg from '../assets/zwicoat-testimonial-img.png'
+import WaveBottom from './WaveBottom'
+import WaveTop from './WaveTop'
 
 const Testimonials = () => {
   return (
     <div className='testimonials-center'>
+      <WaveTop />
       <div className="testimonials-head">
         <h2 className="testimonials-subtitle">Testimonials</h2>
         <h1 className="testimonials-title">Don't just take our word for it</h1>
@@ -17,6 +20,7 @@ const Testimonials = () => {
           <h2 className="testimonial-name">- Kameron R. Hansen | CTO and President</h2>
         </div>
       </div>
+      <WaveBottom />
     </div>
   )
 }

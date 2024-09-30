@@ -2,7 +2,7 @@ import React from 'react';
 
 import { whatCards } from '../data'
 import WhatCard from './WhatCard';
-
+import WaveBottom from './WaveBottom';
 
 const WhatWeDo = () => {
   return (
@@ -22,6 +22,7 @@ const WhatWeDo = () => {
           return <WhatCard key={singleCard.id} {...singleCard}/>
         })}
       </div>
+      <WaveBottom />
     </div>
   );
 };
