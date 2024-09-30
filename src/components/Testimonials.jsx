@@ -6,7 +6,8 @@ const Testimonials = () => {
     <div className='testimonials-center'>
       <div className="testimonials-head">
         <h2 className="testimonials-subtitle">Testimonials</h2>
-        <h1 className="testimonials-title">Don't take our word for it, heres our most recent customer</h1>
+        <h1 className="testimonials-title">Don't just take our word for it</h1>
+        <h2 className="testimonials-subtitle">Here's our most recent customer</h2>
       </div>
       <div className="testimonial-container">
         <img src={testimonialImg} alt="" className="testimonial-img" style={{height: '60vh', width: '60vw'}} />
