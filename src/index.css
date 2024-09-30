@@ -410,6 +410,7 @@ p {
   .what-list {
     margin-top: 10%;
     gap: 10vh;
+    margin-bottom: 8rem;
   }
 
   .what-center {
@@ -487,8 +488,6 @@ p {
 @media (max-width: 768px) {
 
   .footer-center {
-    margin-top: 10%;
-    margin-bottom: 10%;
     gap: 5vw;
   }
 
@@ -699,8 +698,8 @@ p {
 
 @media (max-width: 768px) {
 
-  .testimonials-center {
-    margin-top: 4rem;
+  .testimonials-head {
+    margin-top: 8rem;
   }
 
   .testimonial-container {
@@ -715,6 +714,7 @@ p {
 
   .testimonial-quote {
     width: 80vw;
+    margin-bottom: 4rem;
   }
 }
 
