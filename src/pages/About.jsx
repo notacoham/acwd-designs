@@ -1,16 +1,13 @@
 import React from 'react'
 import profileImg from '../assets/alex-cottam-profile-img-edited.png'
-import WaveBottom from '../components/WaveBottom'
 import { NavLink } from 'react-router-dom'
 import Pricing from '../components/Pricing'
+import PageHead from '../components/PageHead'
 
 const About = () => {
   return (
     <div className='about-center'>
-      <div className="about-head-container">
-        <h1 className="about-head-title">About Us</h1>
-        <WaveBottom />
-      </div>
+      <PageHead header={'About Us'}/>
       <div className="about-me-center">
         <img src={profileImg} alt="" className="about-me-img" />
         <div className="about-me-content">
@@ -25,7 +22,6 @@ const About = () => {
           <NavLink to='/contact' className="price-btn">Get Started</NavLink>
         </div>
       </div>
-      <Pricing />
     </div>
   )
 }

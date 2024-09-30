@@ -859,16 +859,9 @@ p {
 
 }
 
-/* About Page */
+/* Page Head */
 
-.about-center {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: auto;
-}
-
-.about-head-container {
+.page-head-container {
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -877,8 +870,17 @@ p {
   position: relative;
 }
 
-.about-head-title {
+.page-head-title {
   color: var(--primary-1);
+}
+
+/* About Page */
+
+.about-center {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
 }
 
 .about-me-img {

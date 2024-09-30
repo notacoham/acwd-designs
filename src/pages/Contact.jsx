@@ -1,9 +1,11 @@
 import React from 'react'
+import PageHead from '../components/PageHead'
 
 const Contact = () => {
   return (
-    <div>
-      Contact
+    <div className='contact-center'>
+      <PageHead header={'Contact Us'}/>
+      
     </div>
   )
 }
