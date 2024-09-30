@@ -625,6 +625,10 @@ p {
   margin-bottom: 5vh;
 }
 
+.testimonial-quote:hover {
+  scale: 1.025;
+}
+
 .testimonial-quote {
   display: flex;
   flex-direction: column;
@@ -635,6 +639,7 @@ p {
   border-radius: 50px;
   border-bottom-right-radius: 0;
   color: white;
+  transition: all 0.2s ease-in-out;
 }
 
 .testimonial-body {
@@ -716,6 +721,11 @@ p {
   width: 35vw;
   border-radius: 30px;
   padding: 2rem 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.pricing-card:hover {
+  scale: 1.025;
 }
 
 .pricing-features-list {
@@ -783,3 +793,20 @@ p {
   gap: 2rem;
 }
 
+/* Pricing Responsive */
+
+.pricing-center {
+  flex-direction: column;
+}
+
+.pricing-header-container {
+  width: 90vw;
+}
+
+.pricing-header {
+  width: 90vw;
+}
+
+.pricing-card {
+  width: 80vw;
+}
