@@ -1,0 +1,46 @@
+import React from 'react'
+
+const ContactForm = () => {
+
+    const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "10040e4d-4da7-4fbb-ba27-0a3b897b01f5");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
+  return (
+      <div>
+      <form onSubmit={onSubmit}>
+        <input type="text" name="name" required/>
+        <input type="email" name="email" required/>
+        <textarea name="message" required></textarea>
+
+        <button type="submit">Submit Form</button>
+
+      </form>
+      <span>{result}</span>
+
+    </div>
+  )
+}
+
+export default ContactForm
