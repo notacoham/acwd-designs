@@ -241,9 +241,10 @@ p {
 @media (max-width: 768px) {
 
   .hero-center {
-    margin-top: 25%;
+    margin-top: 200px;
+    max-height: 550px;
     flex-direction: column;
-    width: 90vw;
+    width: 100vw;
     justify-content: center;
     align-items: center;
   }
@@ -398,23 +399,23 @@ p {
   text-align: left;
 }
 
-
-
 /* What Responsive */
 
 @media (max-width: 768px) {
   .what-item {
     width: 80vw;
+    height: auto;
+    gap: 1.5rem;
   }
 
   .what-list {
     margin-top: 10%;
-    gap: 10vh;
+    gap: 4rem;
     margin-bottom: 8rem;
   }
 
   .what-center {
-    margin-top: 25%;
+    margin-top: 125px;
   }
 }
 
@@ -626,6 +627,14 @@ p {
     width: 90vw;
   }
 
+  .offerings-content-header {
+    text-align: center;
+  }
+
+  .offerings-content-body {
+    text-align: center;
+  }
+
   .benefit {
     width: 40vw;
   }
@@ -701,6 +710,14 @@ p {
 /* Testimonials Responsive */
 
 @media (max-width: 768px) {
+
+  .testimonials-title {
+    width: 90vw;
+  }
+
+  .testimonials-subtitle {
+    text-align: center;
+  }
 
   .testimonials-head {
     margin-top: 8rem;
@@ -859,6 +876,14 @@ p {
 
 .pricing-card {
   width: 80vw;
+}
+
+.pricing-card-title {
+  text-align: center;
+}
+
+.price {
+  text-align: center;
 }
 
 }
@@ -1115,7 +1140,7 @@ p {
   background: linear-gradient(to bottom right, var(--primary-1), var(--primary-2));
   color: white;
   min-height: 600px;
-  min-width: 475px;
+  min-width: 350px;
   height: auto;
   display: flex;
   flex-direction: column;
