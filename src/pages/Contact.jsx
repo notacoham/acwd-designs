@@ -9,13 +9,13 @@ const Contact = () => {
       <div className="contact-form-container">
         <div className="contact-content">
           <h1 className="contact-title">Lets Talk</h1>
-          <p className="contact-body">Just fill out the form and let us know everything you want out of a new site. We respond to all
-            inquiries within 24 hours of contacting us. Feel free to include your business address and we can meet in person! Being 
-            a local, I love to meet on location for a more seamless experience. We can accommodate those outside of the Salt Lake area
-            as well over Google Meets.
+          <p className="contact-body">Complete our form and share with us your website vision and needs.
+             We will get back to you with next steps and we respond within 24 hours. You can even
+             include your business address for an in-person meeting! As a local, I enjoy on-site consultations for a seamless experience.
+             Outside Salt Lake? No problem, we'll connect via Google Meet. Let's bring your ideas to life!
           </p>
-          <ContactForm />
         </div>
+          <ContactForm />
       </div>
     </div>
   )

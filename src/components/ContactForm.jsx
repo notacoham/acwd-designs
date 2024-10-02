@@ -1,4 +1,6 @@
 import React from 'react'
+import { toast } from 'react-toastify';
+
 
 const ContactForm = () => {
 
@@ -19,7 +21,8 @@ const ContactForm = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult("Can't Wait To Work With You!");
+      toast.success('Form Submitted!')
       event.target.reset();
     } else {
       console.log("Error", data);
@@ -28,13 +31,24 @@ const ContactForm = () => {
   };
 
   return (
-      <div>
-      <form onSubmit={onSubmit}>
-        <input type="text" name="name" required/>
-        <input type="email" name="email" required/>
-        <textarea name="message" required></textarea>
+      <div className='form-center'>
+      <form className='form' onSubmit={onSubmit}>
+        <h1 className="form-title">Make An Appointment</h1>
 
-        <button type="submit">Submit Form</button>
+        <div className="form-input-container">
+        <h2 className="form-subheader">Name</h2>
+        <input className='form-input' type="text" name="name" required placeholder='Name'/>
+        </div>
+        <div className="form-input-container">
+        <h2 className="form-subheader">Email</h2>
+        <input className='form-input' type="email" name="email" required placeholder='Email'/>
+        </div>
+        <div className="form-input-container">
+        <h2 className="form-subheader">Message</h2>
+        <textarea className='form-input-body' name="message" required placeholder='Message'></textarea>
+
+        </div>
+        <button className='btn submit-btn' type="submit">Submit Form</button>
 
       </form>
       <span>{result}</span>
