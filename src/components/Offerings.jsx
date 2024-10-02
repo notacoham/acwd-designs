@@ -6,7 +6,7 @@ import Benefit from './Benefit'
 const Owner = () => {
   return (
     <div className='offerings-center'>
-      <img className='offerings-img' style={{height: '65vh', width: '50vw'}} src={img} alt="" />
+      <img className='offerings-img' style={{height: '65vh', width: '50vw'}} src={img} alt="a picture of the Millcreek Utah Commons" />
       <div className="offerings-content">
         <div className="offerings-content-headers">
             <h1 className="offerings-content-header">What We Offer</h1>

@@ -11,7 +11,7 @@ const About = () => {
     <div className='about-center'>
       <PageHead header={'About Us'}/>
       <div className="about-me-center">
-        <img src={profileImg} alt="" className="about-me-img" />
+        <img src={profileImg} alt="pictured here is ACWD Designs LLC Owner Alex Cottam" className="about-me-img" />
         <div className="about-me-content">
           <h2 className="about-me-subtitle">ACWD Designs</h2>
           <h1 className="about-me-title">A Passion For Design and Small Business</h1>

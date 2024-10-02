@@ -13,7 +13,7 @@ const Testimonials = () => {
         <h2 className="testimonials-subtitle">Here's our most recent customer</h2>
       </div>
       <div className="testimonial-container">
-        <img src={testimonialImg} alt="" className="testimonial-img" style={{height: '60vh', width: '60vw'}} />
+        <img src={testimonialImg} alt="a picture of a recent customer's website, Zwicoat Materials Innovations" className="testimonial-img" style={{height: '60vh', width: '60vw'}} />
         <div className="testimonial-quote">
           <h2 className="testimonial-company">ZwiCoat Materials Innovation</h2>
           <p className="testimonial-body">"I hired Alex to make a website for our biotech company. He put together

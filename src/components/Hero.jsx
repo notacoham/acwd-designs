@@ -17,7 +17,7 @@ const Hero = () => {
         <NavLink className="btn hero-btn" to='/contact'>Get A Quote Today!</NavLink>
       </div>
       <div className="hero-img">
-        <img src={heroImg} alt="Hero Img" />
+        <img src={heroImg} alt="Image of ACWD Web Design LLC Mascot floating" />
       </div>
     </div>
   );
