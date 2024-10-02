@@ -12,7 +12,7 @@ const Footer = () => {
         <p className="footer-body">We believe in doing our best to help small businesses. Just because you're a small
             business, doesn't mean your website needs to be small too. Let's work together to build your site today.
         </p>
-        <NavLink className='btn footer-btn' to='/contact'>Contact</NavLink>
+        <NavLink className='btn footer-btn' to='/contact'>Contact Us</NavLink>
       </div>
       <div className="footer-links">
         <h2 className="footer-links-header">Quick Links</h2>
