@@ -938,6 +938,35 @@ p {
   text-align: center;
 }
 
+/* About Page Responsive */
+
+@media (max-width: 768px) {
+  
+  .about-me-center {
+    flex-direction: column;
+  }
+  
+  .about-me-img {
+    width: 90%;
+  }
+  
+  .about-me-content {
+    width: 90vw;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .about-me-title {
+    width: 90%;
+    text-align: center;
+  }
+
+  .about-me-body {
+    width: 100%;
+  }
+}
+
+
 /* About Process Cards */
 
 .about-process-center {
@@ -1023,6 +1052,26 @@ p {
   text-align: justify;
 }
 
+/* About Process Responsive */
+
+@media (max-width: 768px) {
+
+  .about-process-head {
+    flex-direction: column;
+  }
+
+  .about-process-body {
+    width: 90vw;
+  }
+
+  .about-process-card {
+    width: 75vw;
+  }
+
+  .about-process-card:hover {
+    transform: scale(1.025);
+  }
+}
 
 
 /* Contact */
