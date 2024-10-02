@@ -1,8 +1,10 @@
 import React from 'react'
 import profileImg from '../assets/alex-cottam-profile-img-edited.png'
 import { NavLink } from 'react-router-dom'
-import Pricing from '../components/Pricing'
 import PageHead from '../components/PageHead'
+import ProcessCard from '../components/ProcessCard'
+import { processes } from '../data'
+import Pricing from '../components/Pricing'
 
 const About = () => {
   return (
@@ -22,6 +24,21 @@ const About = () => {
           <NavLink to='/contact' className="price-btn">Get Started</NavLink>
         </div>
       </div>
+      <div className="about-process-center">
+        <div className="about-process-head">
+        <h1 className="about-process-header">Our Process</h1>
+        <p className="about-process-body">After a contract is signed we will set up a meeting to talk about your business, the details, and any inclusions you want
+          specifically in the site. From there, we expand on that content and write the entire site's content for you, create the design, then build, being sure to get 
+          your approval each step of the way. This process generally takes 2-3 weeks from start to finish. 
+        </p>
+        </div>
+        <div className="about-process-card-container">
+          {processes.map((process) => {
+            return <ProcessCard key={process.id} {...process} />
+          })}
+        </div>
+      </div>
+      <Pricing />
     </div>
   )
 }

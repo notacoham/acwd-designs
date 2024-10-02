@@ -65,3 +65,21 @@ export const benefits = [
         description: `Did you know that 38% of users abandon websites with unappealing content or layouts? Don't let poor design cost you customers. Let our experts craft an attractive, user-friendly website that keeps visitors engaged and coming back for more.`,
     },
 ]
+
+export const processes = [
+    {
+        id: 1,
+        title: 'Set up Appointment',
+        description: 'Fill out our form in the contact page and get started! We will set up an in-person or virtual meeting to talk about all the details about your site, then we will take it from there.',
+    },
+    {
+        id: 2,
+        title: 'Design and Development',
+        description: 'Once a contract is signed, we will get working right away. When the first draft is complete we will send it to you for approval then complete the final steps.',
+    },
+    {
+        id: 3,
+        title: 'Deployment',
+        description: 'Once the coding is finished, we will send you a demo link to view before we launch and go live.',
+    },
+]

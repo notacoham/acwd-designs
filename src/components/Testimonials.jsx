@@ -16,7 +16,10 @@ const Testimonials = () => {
         <img src={testimonialImg} alt="" className="testimonial-img" style={{height: '60vh', width: '60vw'}} />
         <div className="testimonial-quote">
           <h2 className="testimonial-company">ZwiCoat Materials Innovation</h2>
-          <p className="testimonial-body">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non itaque natus blanditiis, rerum veritatis vel error et tempore adipisci fugiat soluta, commodi perferendis explicabo dolores."</p>
+          <p className="testimonial-body">"I hired Alex to make a website for our biotech company. He put together
+            a site that was better than anything I'd envisioned by the end of one week, and here I was thinking it would
+            take months! Alex is a one-stop shop for design, creation, and deployment. I fully recommend him to anyone, especially
+            to business owners looking to get the most out of their online presence."</p>
           <h2 className="testimonial-name">- Kameron R. Hansen | CTO and President</h2>
         </div>
       </div>

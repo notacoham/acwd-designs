@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import {About, Landing, HomeLayout, Contact, Mobile, SEO } from './pages/index.js'
+import {About, Landing, HomeLayout, Contact, Mobile, SEO, Pricing } from './pages/index.js'
 
 const router = createBrowserRouter([
   {
@@ -21,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: '/seo',
         element: <SEO />,
+      },
+      {
+        path: '/pricing',
+        element: <Pricing />,
       },
       {
         index: true,

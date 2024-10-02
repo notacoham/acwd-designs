@@ -7,7 +7,7 @@ const Pricing = () => {
       <div className="pricing-header-container">
       <h1 className="pricing-header">Aggressive Pricing With Small Business In Mind</h1>
       <p className="pricing-body">Here at ACWD Designs, we want to empower every small business with an affordable, professional website. We want to expand your digital reach without expanding your budget.</p>
-      <NavLink className="price-btn">Get Started</NavLink>
+      <NavLink to='/contact' className="price-btn">Get Started</NavLink>
       </div>
       <div className="pricing-card">
         <h2 className="pricing-card-title">Lump Sum Pricing</h2>
@@ -18,8 +18,8 @@ const Pricing = () => {
           <li className="pricing-feature">Edits and Support</li>
         </ul>
         <h2 className="price">Starting at $1200</h2>
-        <NavLink className="price-btn">Get Started</NavLink>
-        <NavLink className="what-btn pricing-btn">Pricing Details</NavLink>
+        <NavLink to='/contact' className="price-btn">Get Started</NavLink>
+        <NavLink to='/pricing' className="what-btn pricing-btn">Pricing Details</NavLink>
       </div>
     </div>
   )
