@@ -963,6 +963,7 @@ p {
 
   .about-me-body {
     width: 100%;
+    text-align: center;
   }
 }
 
@@ -1062,6 +1063,7 @@ p {
 
   .about-process-body {
     width: 90vw;
+    text-align: center;
   }
 
   .about-process-card {
@@ -1180,6 +1182,11 @@ p {
   }
 
   .contact-title {
+    text-align: center;
+  }
+
+  .contact-body {
+    font-size: 18px;
     text-align: center;
   }
 }
