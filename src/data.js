@@ -10,8 +10,8 @@ export const whatCards = [
         title: 'Mobile First Design',
         description: `We make sure to build your site with all sizes of screens in mind so visitors 
         can access your site from anywhere and see your beautiful website no matter what device they're using.`,
-        buttonText: 'More About Mobile First',
-        destination: '/details'
+        buttonText: 'Get Started',
+        destination: '/contact'
     },
     {
         id: 2,
@@ -28,8 +28,8 @@ export const whatCards = [
         title: 'Boost your Visibility w/ SEO',
         description: `Supercharge your local presence with our SEO expertise. We'll optimize your website to attract more eyes, climb search rankings,
          and turn online visibility into real-world customers. From Millcreek to beyond, we'll put your business on the digital map and drive more traffic - both online and through your door.`,
-        buttonText: 'More About SEO',
-        destination: '/details'
+        buttonText: 'Get Started',
+        destination: '/contact'
     }
 ];
 

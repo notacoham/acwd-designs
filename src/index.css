@@ -1045,6 +1045,7 @@ p {
 .about-process-header {
   font-size: 58px;
   max-width: 350px;
+  color: var(--primary-2);
 }
 
 .about-process-body {
