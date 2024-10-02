@@ -19,7 +19,6 @@ const Pricing = () => {
         </ul>
         <h2 className="price">Starting at $1200</h2>
         <NavLink to='/contact' className="price-btn">Get Started</NavLink>
-        <NavLink to='/pricing' className="what-btn pricing-btn">Pricing Details</NavLink>
       </div>
     </div>
   )

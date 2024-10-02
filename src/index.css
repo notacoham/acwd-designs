@@ -608,7 +608,7 @@ p {
   font-size: 16px;
   color: var(--primary-1);
   line-height: 1.25rem;
-  text-align: justify;
+  text-align: left;
 }
 
 /* Offerings Responsive */
@@ -787,7 +787,7 @@ p {
   background-color: var(--primary-2);
   width: 35vw;
   border-radius: 30px;
-  padding: 2rem 2rem;
+  padding: 4rem 2rem;
   transition: all 0.2s ease-in-out;
 }
 
