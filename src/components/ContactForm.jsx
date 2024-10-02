@@ -48,7 +48,7 @@ const ContactForm = () => {
         <textarea className='form-input-body' name="message" required placeholder='Message'></textarea>
 
         </div>
-        <button className='btn submit-btn' type="submit">Submit Form</button>
+        <button className='btn submit-btn' type="submit">Submit</button>
 
       </form>
       <span>{result}</span>
