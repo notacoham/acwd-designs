@@ -11,7 +11,7 @@ export const whatCards = [
         description: `We make sure to build your site with all sizes of screens in mind so visitors 
         can access your site from anywhere and see your beautiful website no matter what device they're using.`,
         buttonText: 'More About Mobile First',
-        destination: '/mobile'
+        destination: '/details'
     },
     {
         id: 2,
@@ -29,7 +29,7 @@ export const whatCards = [
         description: `Supercharge your local presence with our SEO expertise. We'll optimize your website to attract more eyes, climb search rankings,
          and turn online visibility into real-world customers. From Millcreek to beyond, we'll put your business on the digital map and drive more traffic - both online and through your door.`,
         buttonText: 'More About SEO',
-        destination: '/seo'
+        destination: '/details'
     }
 ];
 
@@ -83,3 +83,5 @@ export const processes = [
         description: 'Once the coding is finished, we will send you a demo link to view before we launch and go live.',
     },
 ]
+
+// The average cost of designing a small business website is between $2,000 and $9,000. (Forbes, 2024)
