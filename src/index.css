@@ -1142,7 +1142,7 @@ p {
   background: linear-gradient(to bottom right, var(--primary-1), var(--primary-2));
   color: white;
   min-height: 600px;
-  min-width: 350px;
+  min-width: 300px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -1216,5 +1216,9 @@ p {
   .contact-body {
     font-size: 18px;
     text-align: center;
+  }
+
+  .form-center {
+    width: 90vw;
   }
 }
